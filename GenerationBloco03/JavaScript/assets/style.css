@@ -1,0 +1,64 @@
+/* CONTATO */
+.contato {
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 50px;
+  }
+  
+  .contato section {
+    width: 550px;
+  }
+  
+  #contato h1, #endereco h2 {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+  }
+  
+  .formulario {
+    width: 90%;
+    padding: 15px;
+  }
+  
+  .formulario label {
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .formulario input, .formulario textarea {
+    border: 2px solid #808C6D;
+    border-radius: 6px;
+    color: #808C6D;
+  }
+  
+  .formulario input {
+    width: 60%;
+    height: 20px;
+  }
+  
+  .formulario button {
+    border: 2px solid #808C6D;
+    background-color: #808C6D;
+    border-radius: 3px;
+    width: 150px;
+    height: 30px;
+    color: #EDE4DB;
+    font-weight: 700;
+    font-size: 18px;
+  }
+  
+  #botao-position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #endereco p {
+    padding-left: 25px;
+    margin: 5px 0;
+    font-size: 20px;
+  }
+  
+  #endereco iframe {
+    margin: 10px 25px;
+  }
